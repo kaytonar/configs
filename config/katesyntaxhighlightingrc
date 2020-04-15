@@ -1,0 +1,81 @@
+[Default Item Styles - Schema Breeze Dark]
+Error=ffda4453,ffda4453,0,,,1,-,-,,---
+
+[Default Item Styles - Schema Normal]
+Error=ffbf0303,ff9c0e0e,,0,,1,-,-,,---
+
+[Highlighting Bash - Schema Breeze Dark]
+Alerts:Alert Level 1=28,ffe85848,ffe85848,,,,,ff451e1a,ff000000,,---
+Alerts:Alert Level 2=28,ffca9219,ffca9219,,,,,ff451e1a,ff000000,,---
+Alerts:Alert Level 3=28,ff81ca2d,ff81ca2d,,,,,ff4d1f24,ff000000,,---
+Alerts:Normal Text=0,,,,,,,,,,---
+Alerts:Region Marker=25,ff2980b9,ff3daee9,,,,,ff153042,ff000000,,---
+Bash:Backquote=1,,,,,,,,,,---
+Bash:Builtin=6,ff7f8c8d,ffbdc3c7,,,,,,,,---
+Bash:Command=2,ff8e44ad,ffaf81ff,,,,,,,,---
+Bash:Comment=21,ff7a7c7d,ff808080,,,,,,,,---
+Bash:Control=1,,,,,,,,,,---
+Bash:Error=30,ffda4453,ffda4453,,,,,,,,---
+Bash:Escape=16,ff2980b9,fffdbc4b,,,,,,,,---
+Bash:Expression=29,ff27ae60,ff27ae60,,,,,,,,---
+Bash:Function=2,ff8e44ad,ffaf81ff,,,,,,,,---
+Bash:Keyword=1,,,,,,,,,,---
+Bash:Normal Text=0,,,,,,,,,,---
+Bash:Option=0,,,,,,,,,,---
+Bash:OtherCommand=7,ff0099ff,ffbdc3c7,,,,,,,,---
+Bash:Path=0,,,,,,,,,,---
+Bash:Redirection=5,,,,,,,,,,---
+Bash:String DoubleQ=12,fff44f4f,fff44f4f,,,,,,,,---
+Bash:String Escape=16,ff2980b9,fffdbc4b,,,,,,,,---
+Bash:String SingleQ=12,fff44f4f,fff44f4f,,,,,,,,---
+Bash:String Transl.=12,fff44f4f,fff44f4f,,,,,,,,---
+Bash:Variable=3,ff27aeae,ff27aeae,,,,,,,,---
+Modelines:Comment=21,ff7a7c7d,ff808080,,,,,,,,---
+Modelines:Keyword=23,ff3f8058,ff54aa75,,,,,,,,---
+Modelines:Number=17,fff67400,fff67400,,,,,,,,---
+Modelines:Option OFF=29,ff27ae60,ff27ae60,,,,,,,,---
+Modelines:Option ON=29,ff27ae60,ff27ae60,,,,,,,,---
+Modelines:String=12,fff44f4f,fff44f4f,,,,,,,,---
+Modelines:Value=29,ff27ae60,ff27ae60,,,,,,,,---
+Modelines:Variable=24,ff7f8c8d,ff94a3a4,,,,,,,,---
+
+[Highlighting Bash - Schema Normal]
+Alerts:Alert Level 1=28,ffe85848,ffe85848,,,,,ff451e1a,ff000000,,---
+Alerts:Alert Level 2=28,ffca9219,ffca9219,,,,,ff451e1a,ff000000,,---
+Alerts:Alert Level 3=28,ff81ca2d,ff81ca2d,,,,,fff7e6e6,ff000000,,---
+Alerts:Normal Text=0,,,,,,,,,,---
+Alerts:Region Marker=25,ff0057ae,ff00316e,,,,,ffe0e9f8,ff000000,,---
+Bash:Backquote=1,,,,,,,,,,---
+Bash:Builtin=6,ff644a9b,ff452886,,,,,,,,---
+Bash:Command=2,ff644a9b,ff452886,,,,,,,,---
+Bash:Comment=21,ff898887,ff5e5d5d,,,,,,,,---
+Bash:Control=1,,,,,,,,,,---
+Bash:Error=30,ffbf0303,ff9c0e0e,,,,,,,,---
+Bash:Escape=16,ff0057ae,ff00316e,,,,,,,,---
+Bash:Expression=29,ff006e28,ff006e28,,,,,,,,---
+Bash:Function=2,ff644a9b,ff452886,,,,,,,,---
+Bash:Keyword=1,,,,,,,,,,---
+Bash:Normal Text=0,,,,,,,,,,---
+Bash:Option=0,,,,,,,,,,---
+Bash:OtherCommand=7,ff0095ff,ffffffff,,,,,,,,---
+Bash:Path=0,,,,,,,,,,---
+Bash:Redirection=5,,,,,,,,,,---
+Bash:String DoubleQ=12,ffbf0303,ff9c0e0e,,,,,,,,---
+Bash:String Escape=16,ff0057ae,ff00316e,,,,,,,,---
+Bash:String SingleQ=12,ffbf0303,ff9c0e0e,,,,,,,,---
+Bash:String Transl.=12,ffbf0303,ff9c0e0e,,,,,,,,---
+Bash:Variable=3,ff0057ae,ff00316e,,,,,,,,---
+Modelines:Comment=21,ff898887,ff5e5d5d,,,,,,,,---
+Modelines:Keyword=23,ffca60ca,ffa44ea4,,,,,,,,---
+Modelines:Number=17,ffb08000,ff805c00,,,,,,,,---
+Modelines:Option OFF=29,ff006e28,ff006e28,,,,,,,,---
+Modelines:Option ON=29,ff006e28,ff006e28,,,,,,,,---
+Modelines:String=12,ffbf0303,ff9c0e0e,,,,,,,,---
+Modelines:Value=29,ff006e28,ff006e28,,,,,,,,---
+Modelines:Variable=24,ff0095ff,ffffffff,,,,,,,,---
+
+[Highlighting None - Schema Breeze Dark]
+None:Normal=0,,,,,,,,,,---
+
+[Highlighting None - Schema Normal]
+None:Normal=0,,,,,,,,,,---
