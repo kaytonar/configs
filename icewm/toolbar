@@ -1,0 +1,10 @@
+# This is a default toolbar definition file for IceWM
+#
+# Place your personal variant in $HOME/.icewm directory.
+
+prog Konsole /usr/share/icons/nuoveXT2/96x96/apps/konsole.png konsole
+prog PcManFm /usr/share/icons/nuoveXT2/64x64/apps/file-manager.png pcmanfm
+#prog Netscape netscape netscape
+#prog    "Vim" vim /usr/bin/gvim -f
+prog Firefox firefox firefox
+

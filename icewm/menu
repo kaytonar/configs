@@ -1,0 +1,107 @@
+prog "ST" - st
+prog "Firefox" - firefox
+
+menu "Editors" folder {
+    prog "Nano" - xterm -e nano
+    prog "Pico" - xterm -e pico
+    prog "Vi" - xterm -e vi
+    prog "Vim" - xterm -e vim
+    prog "Xedit" - xedit
+}
+menu "Games" folder {
+    menu "Amusement" folder {
+        prog "Oclock" - oclock
+        prog "Xclock (analog)" - xclock -analog
+        prog "Xclock (digital)" - xclock -digital -update 1
+        prog "Xeyes" - xeyes
+        prog "Xlogo" - xlogo
+    }
+}
+menu "Graphics" folder {
+    prog "Xditview" - xditview
+}
+menu "Network" folder {
+    prog "FireFox" - firefox
+    prog "FTP" - xterm -e ftp
+    prog "Telnet" - xterm -e telnet
+}
+menu "Office" folder {
+    prog "Xbiff" - xbiff
+}
+menu "Other" folder {
+    prog "Telnet" - xterm -e telnet.netkit
+}
+menu "Shells" folder {
+    prog "Bash" - xterm -e bash --login
+    prog "File Manager PCManFM" - pcmanfm
+    prog "GIT" - xterm -e git
+    prog "Sh" - xterm -e sh --login
+    prog "Terminal" - gnome-terminal
+    prog "Terminator" - terminator
+    prog "UXTerm" - uxterm
+    prog "Xterm" - xterm
+}
+menu "System" folder {
+    menu "Settings" folder {
+        menu "GNOME" folder {
+            prog "Advanced Network Configuration" - nm-connection-editor
+            prog "Language Support" - gnome-language-selector
+            prog "Printers" - system-config-printer
+            prog "Settings" - gnome-control-center
+            prog "Startup Applications" - gnome-session-properties
+        }
+        menu "Xfce" folder {
+            prog "Screensaver" - xscreensaver-demo
+        }
+        prog "Abstractile" - /usr/lib/xscreensaver/abstractile -root
+        prog "BinaryRing" - /usr/lib/xscreensaver/binaryring -root
+        prog "CWaves" - /usr/lib/xscreensaver/cwaves -root
+        prog "Deco" - /usr/lib/xscreensaver/deco -root
+        prog "Desktop Preferences" - pcmanfm --desktop-pref
+        prog "Distort" - /usr/lib/xscreensaver/distort -root
+        prog "Fiberlamp" - /usr/lib/xscreensaver/fiberlamp -root
+        prog "FuzzyFlakes" - /usr/lib/xscreensaver/fuzzyflakes -root
+        prog "Galaxy" - /usr/lib/xscreensaver/galaxy -root
+        prog "Hexadrop" - /usr/lib/xscreensaver/hexadrop -root
+        prog "IBus Preferences" - ibus-setup
+        prog "Input Method" - im-config
+        prog "m6502" - /usr/lib/xscreensaver/m6502 -root
+        prog "MetaBalls" - /usr/lib/xscreensaver/metaballs -root
+        prog "nitrogen" - nitrogen
+        prog "Penrose" - /usr/lib/xscreensaver/penrose -root
+        prog "Ripples" - /usr/lib/xscreensaver/ripples -root
+        prog "ShadeBobs" - /usr/lib/xscreensaver/shadebobs -root
+        prog "SlideScreen" - /usr/lib/xscreensaver/slidescreen -root
+        prog "Swirl" - /usr/lib/xscreensaver/swirl -root
+        prog "Tessellimage" - /usr/lib/xscreensaver/tessellimage -root
+        prog "Xfontsel" - xfontsel
+        prog "XLyap" - /usr/lib/xscreensaver/xlyap -root
+        prog "Xvidtune" - xvidtune
+    }
+    prog "Debian Task selector" - xterm -e su-to-root -c tasksel
+    prog "Editres" - editres
+    prog "Htop" - xterm -e htop
+    prog "Pstree" - xterm -e pstree.x11
+    prog "Top" - xterm -e top
+    prog "Xclipboard" - xclipboard
+    prog "Xev" - x-terminal-emulator -e xev
+    prog "Xkill" - xkill
+    prog "Xload" - xload
+    prog "Xrefresh" - xrefresh
+}
+menu "Utilities" folder {
+    prog "Activate ScreenSaver (Next)" - xscreensaver-command -next
+    prog "Activate ScreenSaver (Previous)" - xscreensaver-command -prev
+    prog "Activate ScreenSaver (Random)" - xscreensaver-command -activate
+    prog "Bc" - xterm -e bc
+    prog "Demo Screen Hacks" - xscreensaver-command -demo
+    prog "Disable XScreenSaver" - xscreensaver-command -exit
+    prog "Enable XScreenSaver" - xscreensaver
+    prog "Help" - yelp
+    prog "Lock Screen (XScreenSaver)" - xscreensaver-command -lock
+    prog "Reinitialize XScreenSaver" - xscreensaver-command -restart
+    prog "ScreenSaver Preferences" - xscreensaver-command -prefs
+    prog "TeXInfo" - xterm -e info
+    prog "Xcalc" - xcalc
+    prog "Xman" - xman
+}

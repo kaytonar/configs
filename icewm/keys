@@ -1,0 +1,7 @@
+#keys
+key "Super+Return"	konsole
+key "Alt+Shift+r" 	icewm -r
+key "Super+w"		firefox
+key "Super+Shift+c"	icesh -f close
+key "Super+e"		pcmanfm
+key "Super+Shift+d"	dmenu_run

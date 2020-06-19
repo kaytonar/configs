@@ -1,0 +1,13 @@
+#!/bin/sh
+
+#merge
+	xrdb -merge ~/.Xresources &
+
+#nitrogen
+	nitrogen --restore &
+
+# nm-applet
+	nm-applet &
+#compton
+	sleep 1 &&
+	compton &
