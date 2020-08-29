@@ -1,2 +1,3 @@
 # configs
-config files
+- config files for Linux
+- config for bsd
