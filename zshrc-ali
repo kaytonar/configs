@@ -247,12 +247,6 @@ alias noblogout="sudo nano /etc/oblogout.conf"
 alias nmirrorlist="sudo nano /etc/pacman.d/mirrorlist"
 alias nconfgrub="sudo nano /boot/grub/grub.cfg"
 
-#gpg
-#verify signature for isos
-alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
-#receive the key of a developer
-alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
-
 #shutdown or reboot
 alias ssn="sudo shutdown now"
 alias sr="sudo reboot"
