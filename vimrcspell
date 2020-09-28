@@ -218,4 +218,6 @@ endfunc
 :imap ii <Esc>
 " vim:foldmethod=marker:foldlevel=0
 
-
+ " rmd
+     autocmd Filetype rmd map <F5> :!echo<space>"require(rmarkdown);<space>render('<c-r>%')"<space>\|<space>R<space>--vanilla<enter>
+     autocmd Filetype rmd inoremap ;r ```{r,<space>echo=TRUE}<CR>```<CR><CR><esc>2kO
