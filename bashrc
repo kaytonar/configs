@@ -12,7 +12,6 @@ export TERM="xterm-256color"              # getting proper colors
 export HISTCONTROL=ignoredups:erasedups   # no duplicate entries
 export ALTERNATE_EDITOR=""                # setting for emacsclient
 export EDITOR="vim"      # $EDITOR use Emacs in terminal
-export VISUAL="code"   # $VISUAL use Emacs in GUI mode
 
 # sets vim as manpager
 export MANPAGER="/bin/sh -c \"col -b | vim --not-a-term -c 'set ft=man ts=8 nomod nolist noma' -\""
