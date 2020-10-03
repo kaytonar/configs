@@ -98,6 +98,8 @@ export MANPAGER='env MAN_PN=1 vim -M +MANPAGER -'
 ####   ARCOLINUX SETTINGS   ####
 
 
+export PATH=$HOME/.emacs.d/bin:$PATH
+
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 setopt GLOB_DOTS
