@@ -59,7 +59,9 @@
 }
 
 /* These two exist for oneliner compatibility */
-#nav-bar{ width: var(--uc-navigationbar-width,20vw) }
+
+/*25.95*/  /*change to 40vw for better looks*/
+#nav-bar{ width: var(--uc-navigationbar-width,40vw) }
 #TabsToolbar{ width: calc(100vw - var(--uc-navigationbar-width,0px)) }
 
 /* Don't apply transform before window has been fully created */
@@ -94,15 +96,15 @@
 
 toolbar .toolbarbutton-1 {
 	appearance: none !important;
-	margin: -1px;
+	margin: -1px; /* -1px*/
 	padding: 0 var(--toolbarbutton-outer-padding);
 	-moz-box-pack: center;
 }
 
 #TabsToolbar {
   margin-top: -1px !important;
-  margin-bottom: 1px !important;
-  margin-left: 26vw !important;
+  margin-bottom: 0px !important; /*1px*/
+  margin-left: 40vw !important; /*26vw*/ /*change to 40vw for better looks*/
   max-height: 32px !important;
 }
 .tabbrowser-arrowscrollbox {
@@ -128,16 +130,18 @@ toolbar .toolbarbutton-1 {
 :root {
   --toolbox-border-bottom-color: transparent !important;
 }
-
+/*9px*/
 #nav-bar {
   background: transparent !important;
   margin-top: -32px !important;
   margin-bottom: -1px !important;
   margin-right: 72vw !important;
   height: 32px !important;
-  font-size: 9px;
+  font-size: 12px;
   font-family: Andale Mono;
 }
+
+/*280px*/
 #urlbar-container {
   min-width: 280px !important;
 }
@@ -203,6 +207,7 @@ toolbar .toolbarbutton-1 {
 .tab-label {
   -moz-box-flex: 1 !important; text-align: center !important;
   font-family: Andale Mono;
+  font-size: 10px;
 }
 
 #TabsToolbar .tabbrowser-tab[selected] {
